@@ -5,3 +5,7 @@ api-version: 1.15
 authors: [yiaaanni]
 description: Gifts for reading guides :>
 website: https://dreamtime.su/
+
+commands:
+  gift:
+    description: dreamtime gift command
