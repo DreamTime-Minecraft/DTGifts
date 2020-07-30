@@ -1,0 +1,7 @@
+name: DTGifts
+version: ${project.version}
+main: ru.yiaaanni.dreamtime.dtgifts.DTGifts
+api-version: 1.15
+authors: [yiaaanni]
+description: Gifts for reading guides :>
+website: https://dreamtime.su/
