@@ -1,0 +1,15 @@
+codes:
+  ntYpos: 'ae givercbook  %player% '
+  rSdIsH: 'es give %player%'
+  FOrkiR: 'rs give %player% 1 Resistance'
+  NceNTU: 'cmi money give %player% 900'
+
+used:
+  ntYpos:
+    - 'Никто'
+  rSdIsH:
+    - 'Никто'
+  FOrkiR:
+    - 'Никто'
+  NceNTU:
+    - 'Никто'

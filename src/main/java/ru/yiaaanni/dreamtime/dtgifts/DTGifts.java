@@ -9,6 +9,7 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
@@ -29,6 +30,7 @@ public final class DTGifts extends JavaPlugin implements CommandExecutor {
         Set<String> codes = getConfig().getConfigurationSection("codes").getKeys(false);
         for(String str : codes) {
             gifts.put(str, getConfig().getString("codes."+str));
+            getConfig().set("used."+str, new ArrayList<>());
         }
     }
 
