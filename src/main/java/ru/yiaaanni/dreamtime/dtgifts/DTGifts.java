@@ -70,7 +70,6 @@ public final class DTGifts extends JavaPlugin implements CommandExecutor {
         }
 
         String code = args[0];
-
         if(!gifts.containsKey(code)) {
             sender.sendMessage("§cКод не обнаружен! Проверьте правильность ввода!");
             return false;
@@ -84,6 +83,8 @@ public final class DTGifts extends JavaPlugin implements CommandExecutor {
         if(savePlayerToUsedCode(sender.getName(), code)) {
             Bukkit.dispatchCommand(Bukkit.getConsoleSender(), gifts.get(code).replace("%player%", sender.getName()));
             sender.sendMessage("§aПоздравляем с призом!");
+        } else {
+            sender.sendMessage("§cВы уже использовали код §6"+code+" §cв этом сезоне!");
         }
 
         return true;

@@ -1,6 +1,6 @@
 codes:
-  ntYpos: 'ae givercbook  %player% '
-  rSdIsH: 'es give %player%'
+  ntYpos: 'ae givercbook LEGENDARY %player% 4'
+  rSdIsH: 'es give %player% Cod 2'
   FOrkiR: 'rs give %player% 1 Resistance'
   NceNTU: 'cmi money give %player% 900'
 
